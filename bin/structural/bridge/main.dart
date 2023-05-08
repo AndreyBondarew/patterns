@@ -7,7 +7,7 @@ void main(List<String> arguments) {
 }
 
 abstract class Shape{
-  FillColor _fillColor;
+  final FillColor _fillColor;
 
   Shape(this._fillColor);
 

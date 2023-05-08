@@ -10,5 +10,6 @@ class Triangle extends Shape{
     return Triangle(x,y, x2, y2, x3, y3);
   }
 
+  @override
   String toString() => 'p1($x,$y), p2($x2,$y2), p3($x3, $y3)';
 }

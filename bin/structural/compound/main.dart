@@ -25,7 +25,7 @@ class StringNotNull extends BaseValidator<String> {
 class StringNotEmpty extends BaseValidator<String> {
   @override
   void validate(String? data) {
-    _isValid = data != null && data.isNotEmpty;;
+    _isValid = data != null && data.isNotEmpty;
   }
   
 }
